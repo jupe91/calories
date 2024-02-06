@@ -1,0 +1,10 @@
+form div {
+    margin: 1em 0;
+    
+}
+
+form label {
+    width: 100px;
+    display: inline-block;
+}
+

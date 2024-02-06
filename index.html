@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Kalorit</title>
+</head>
+<body>
+    <div id="container">
+        <h3>Kalorit</h3>
+        <form>
+            <div>
+                <label>Paino</label>
+                <input type="number"/>
+            </div>
+            <div>
+                <label>Aktiivisuus</label>
+                <select>
+                    <option value="1.3">Matala</option>
+                    <option value="1.5">Tavallinen</option>
+                    <option value="1.7">Kohtuullinen</option>
+                    <option value="2">Kova</option>
+                    <option value="2.2">Urheilija</option>
+                </select>
+            </div>
+            <div>
+                <label>Sukupuoli</label>
+                <input type="radio" name="gender" value="male" checked/><label>Mies</label>
+                <input type="radio" name="gender" value="female"/><label>Nainen</label>
+            </div>
+            <div>
+                <label>Tulos</label>
+                <output></output>
+            </div>
+            <button type="button">Laske</button>
+        </form>
+    </div>   
+    <script src="./js/function.js"></script>
+</body>
+</html>
